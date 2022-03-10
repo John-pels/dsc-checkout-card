@@ -1,0 +1,19 @@
+:root {
+  /* CSS Variables*/
+  --custom-width: 1200px;
+  --custom-border: 1px solid red;
+  --custom-max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: var(--custom-border);
+  width: var(--custom-width);
+  max-width: var(--custom-max-width);
+  margin: 0 auto;
+}
